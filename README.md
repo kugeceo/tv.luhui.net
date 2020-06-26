@@ -4,6 +4,15 @@
 
 http://www.luhui.net/cn/tv/live/
 
+直播代码:（调用方法：将以下代码嵌入到你的网页中！）
+<!--代码开始-->
+<script>
+var w = '1000'; //宽度
+var h = '610'; //高度
+document.write('<iframe src="http://www.luhui.net/cn/tv/live/live.asp" width="'+w+'" height="'+h+'" scrolling="no" allowtransparency="true" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>');
+</script>
+<!--代码结束-->
+
 
 # http://tv.luhui.net
 
