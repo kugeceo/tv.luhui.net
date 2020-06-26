@@ -13,6 +13,7 @@ document.write('<iframe src="http://www.luhui.net/cn/tv/live/live.asp" width="'+
 </script>
 <!--代码结束-->
 
+# 直播代码:（调用方法：将以下代码嵌入到你的网页中！）
 <!--网络电视代码开始-->
 <iframe id="guanfuurl" name="guanfuurl" frameborder="0" src="https://live.64ma.com/tv/live.html#http://music.luhui.net/luhuiplayer#/cn/tv/live/live.asp" width="100%"  height="550px" scrolling="no">汇集所有卫星电视网络电视在线直播</iframe>
 		  
