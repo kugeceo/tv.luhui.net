@@ -1,0 +1,3 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=1186000
+http://bililive.kksmg.com/hls/sdi40/playlist.m3u8?wsSession=8121c16d3cc97287c5a4bb91-156984644966901&wsIPSercert=519098dd406925a25e242357af403e85&wsMonitor=0
