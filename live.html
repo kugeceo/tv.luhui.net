@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>我的电视</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv=Pragma content=no-cache>
+		<meta http-equiv=Cache-Control content=no-cache>
+		<meta http-equiv=Expires content=0>
+		<link href="css/video-js.min.css" rel="stylesheet">
+		<link href="css/mytv.min.css" rel="stylesheet">
+		<script src="js/video.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/mytv.min.js"></script>
+	</head>
+	<body>
+		<div id="play-div">
+			<video id="my-player" class="video-js player" poster="images/poster.png" preload="auto" style="object-fit: fill;">
+			</video>
+		</div>
+		<div id="devinfo">IDCardWeb</div>
+		<div id="playTitle"></div>
+		<div id="menuBut"></div>
+
+		<div id="channels-div">
+			<div id="channels"></div>
+			<div id="category">
+				<div>
+					<a id="category0" href="javascript:;" onclick="">推荐频道<span>></span></a>
+					<a id="category1" href="javascript:;" onclick="">新闻频道<span>></span></a>
+					<a id="category2" href="javascript:;" onclick="">影视频道<span>></span></a>
+					<a id="category3" href="javascript:;" onclick="">儿童频道<span>></span></a>
+					<a id="category4" href="javascript:;" onclick="">体育频道<span>></span></a>
+				</div>
+				<hr />
+				<a id="reload" href="javascript:;" onclick="location=location.href">刷新页面</a>
+				<a id="reloadElist" href="javascript:;" onclick="getEList()">刷新列表</a>
+				<a id="playFit1" href="javascript:;" onclick="setPlayFit('contain')">比例全屏</a>
+				<a id="playFit2" href="javascript:;" onclick="setPlayFit('fill')">全屏拉伸</a>
+				<a id="playFit3" href="javascript:;" onclick="setPlayFit('cover')">比例拉伸</a>
+			</div>
+
+			<div id="command">
+				<span id="playCate"></span>
+				<span id="sysTime"></span>
+			</div>
+		</div>
+	</body>
+</html>
