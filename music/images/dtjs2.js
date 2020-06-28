@@ -19,11 +19,11 @@ FIFM:1,
 beiwa:1,
 duole:1
 };return n.indexOf("#")!=-1&&r[n.split("#")[1]]==1?t=e=n.split("#")[1]:window.localStorage&&localStorage[f]&&(t=e=localStorage[f]),typeof monitor!="undefined"&&monitor.log({defaultplayer:t},"detail"),e}function s(){t(),e(i()),setTimeout(n,1e4)}var o=
-{douban:{src:"url.php?url=dbfm",width:640,height:380},
-kuwo:{src:"url.php?url=kuwodt",width:540,height:400},
-xiami:{src:"url.php?url=xiamidt",width:560,height:320},
-kugou:{src:"url.php?url=kugoudt",width:700,height:450},
-cbdt:{src:"url.php?url=dt",width:310,height:520},
-FIFM:{src:"url.php?url=fm",width:740,height:480},
-beva:{src:"url.php?url=bwdt",width:740,height:515},
-duole:{src:"url.php?url=duoledt",width:740,height:513}},u=null,a=0,f="playerTab",l=$("#url"),c=0;s()})();
+{douban:{src:"url.html?url=dbfm",width:640,height:380},
+kuwo:{src:"url.html?url=kuwodt",width:540,height:400},
+xiami:{src:"url.html?url=xiamidt",width:560,height:320},
+kugou:{src:"url.html?url=kugoudt",width:700,height:450},
+cbdt:{src:"url.html?url=dt",width:310,height:520},
+FIFM:{src:"url.html?url=fm",width:740,height:480},
+beva:{src:"url.html?url=bwdt",width:740,height:515},
+duole:{src:"url.html?url=duoledt",width:740,height:513}},u=null,a=0,f="playerTab",l=$("#url"),c=0;s()})();
